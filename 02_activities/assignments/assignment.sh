@@ -28,7 +28,7 @@ mkdir data
 mkdir data/raw
 
 # 2. Move the ./rawdata directory to ./data/raw
-cp ./rawdata/* ./data/raw 
+mv ./rawdata/* ./data/raw 
 
 # 3. List the contents of the ./data/raw directory
 ls ./data/raw
@@ -56,7 +56,6 @@ ls -rl ./data/processed > ls-./data/inventory.txt
 ###########################################
 #added code to upload to github
 git add assignment.sh
-git status
 git commit -m "finished the assignment"
 git push origin assignment
 
