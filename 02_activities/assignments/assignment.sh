@@ -60,15 +60,12 @@ find data/processed -type f > data/inventory.txt
 ###########################################
 #added code to upload to github
 git add assignment.sh
-<<<<<<< HEAD
 git commit -m "coworker-changes"
 git push origin assignment
 
-=======
 git commit -m "finished the assignment"
 #git push origin assignment
 git push origin coworker-changes
->>>>>>> c3f79b3ea0aa8db36bc7d72a77caf98084bc4f5c
 
 #The force is string with this one
 echo "Project setup is complete!"
