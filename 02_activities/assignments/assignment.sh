@@ -28,8 +28,8 @@ mkdir data
 mkdir data/raw
 
 # 2. Move the ./rawdata directory to ./data/raw
-mv ./rawdata/* ./data/raw/
-
+#mv ./rawdata/* ./data/raw/
+mv ./rawdata/ ./data/raw/
 # 3. List the contents of the ./data/raw directory
 ls ./data/raw
 
