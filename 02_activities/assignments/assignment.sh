@@ -59,13 +59,10 @@ find data/processed -type f > data/inventory.txt
 
 ###########################################
 #added code to upload to github
-git add assignment.sh
-git commit -m "coworker-changes"
-git push origin assignment
-
-git commit -m "finished the assignment"
+#git add assignment.sh
+#git commit -m "finished the assignment"
 #git push origin assignment
-git push origin coworker-changes
+#git push origin coworker-changes
 
-#The force is string with this one
+#Remove the Git Code via comments
 echo "Project setup is complete!"
