@@ -60,7 +60,7 @@ find data/processed -type f > data/inventory.txt
 ###########################################
 #added code to upload to github
 git add assignment.sh
-git commit -m "finished the assignment"
+git commit -m "coworker-changes"
 git push origin assignment
 
 
