@@ -64,6 +64,5 @@ git commit -m "finished the assignment"
 #git push origin assignment
 git push origin coworker-changes
 
-
-
+#The force is string with this one
 echo "Project setup is complete!"
