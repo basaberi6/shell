@@ -64,5 +64,5 @@ find data/processed -type f > data/inventory.txt
 #git push origin assignment
 #git push origin coworker-changes
 
-#Remove the Git Code via comments
+#I want part 2 to work after these changes
 echo "Project setup is complete!"
