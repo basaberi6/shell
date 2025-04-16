@@ -65,3 +65,4 @@ find data/processed -type f > data/inventory.txt
 
 #I want part 2 to work after these changes
 echo "Project setup is complete!"
+#thanks
